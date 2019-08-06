@@ -20,7 +20,7 @@ return(
         <NavbarBrand tag={Link} to='/'>Minhas Séries</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={open} navbar>
-        <Nav className='ml_auto' navbar>
+        <Nav className='ml-auto' navbar>
             <NavItem>
             <NavLink tag={Link} to='/generos'>Genêros</NavLink>
             </NavItem>
